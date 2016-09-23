@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    		<meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    		<meta name="description" content="">
+    		<meta name="author" content="">
+		<title></title>
+		
+	    <!-- jQuery -->
+	    <script src="js/jquery.js"></script>
+        <script src="https://unpkg.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+	    <!-- Bootstrap Core JavaScript -->
+	    <script src="js/bootstrap.min.js"></script>
+	    <!-- Bootstrap Core CSS -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/home.css">
+        <script src="js/home.js"></script>
+       <script src="js/masonry.js"></script>
+	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<div id="wrapper">
+
+            <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-logo">
+                        <a href="#">
+                            WIKI WHEATON
+                        </a>
+                    </li>
+                    <li style="background:#4B9DB9">
+                        <a href="#">SERVICES<img src="img/icons/services_icon.png" alt="services" /></a>
+                    </li>
+                    <li style="background:#EA8700">
+                        <a href="#">ACADEMICS<img src="img/icons/academics_icon.png" alt="academics"/></a>
+                    </li>
+                    <li style="background:#CB5242">
+                        <a href="#">CLUBS<img src="img/icons/clubs_icons.png"></a>
+                    </li>
+                    <li style="background:#7EA526">
+                        <a href="#">TECH<img src="img/icons/tech_icons.png"></a>
+                    </li>
+                    <li style="background:#EDC400">
+                        <a href="#">DORM LIFE<img src="img/icons/dorm_icons.png"></a>
+                    </li>
+                    <li style="background:#00234F">
+                        <a href="#">TIPS & TRICKS<img src="img/icons/tips_icons.png"></a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /#sidebar-wrapper -->
+
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <div class="search row search-navbar">
+                    <div class="col-md-5">
+                        <input class="form-control search-box input-md" name="search" placeholder="Search"/>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-primary" id="toggleLoadButton">Toggle Loading</button>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-primary" id="toggleListButton">Toggle List</button>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-primary" id="toggleMenuButton">Toggle Menu</button>
+                    </div>
+                </div>
+                
+                <div class="container-fluid main">
+                    <div class="spinner">
+                        <div class="cs-loader">
+                          <div class="cs-loader-inner">
+                            <label> ●</label>
+                            <label> ●</label>
+                            <label> ●</label>
+                            <label> ●</label>
+                            <label> ●</label>
+                            <label> ●</label>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="grid-item post" style="background:#7EA526">
+                            <div class="content">
+                                <img class="post-thumbnail" src="img/features/tech.jpg">
+                                <p class="h3 title">How to get Microsoft Subscription?</p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, tortor id sagittis rhoncus, augue turpis tempor ligula, sed efficitur augue est et tortor. <a href="http://www.google.com">Link: www.google.com</a>
+                                <br>Pellentesque bibendum vestibulum nisi, ut elementum erat hendrerit vulputate. Integer euismod sollicitudin lorem, vitae fringilla odio ultrices at. </p>
+                            </div>
+                            <div class="category">
+                                <a href="" style="color:white">TECH <img src="img/icons/tech_icons.png"></a>
+                            </div>
+                        </div>
+                        <div class="grid-item post" style="background:#EA8700">
+                            <div class="content">
+                                <img class="post-thumbnail" src="img/features/degree.jpg">
+                                <p class="h3 title">What is Degree Work?</p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, tortor id sagittis rhoncus, augue turpis tempor ligula, sed efficitur augue est et tortor. </p>
+                            </div>
+                            <div class="category">
+                                <a href="" style="color:white">ACADEMICS <img src="img/icons/academics_icon.png"></a>
+                            </div>
+                        </div>
+                        <div class="grid-item post" style="background:#CB5242">
+                            <div class="content">
+                                <img class="post-thumbnail" src="img/features/wheaton-logo.png">
+                                <p class="h3 title">Microsoft Subscription</p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, tortor id sagittis rhoncus, augue turpis tempor ligula, sed efficitur augue est et tortor. Integer convallis, est vitae malesuada mattis, justo dui dignissim mi, sit amet porta nibh diam ut urna. Aenean convallis, lectus quis elementum gravida, eros dolor fermentum magna, </p>
+                            </div>
+                            <div class="category">
+                                <a href="" style="color:white">CLUBS <img src="img/icons/clubs_icons.png"></a>
+                            </div>
+                        </div>
+                        <div class="grid-item post" style="background:#4B9DB9">
+                            <div class="content">
+                                <p class="h3 title">Microsoft Subscription</p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, tortor id sagittis rhoncus, augue turpis tempor ligula, sed efficitur augue est et tortor. Integer convallis, est vitae malesuada mattis, justo dui dignissim mi, sit amet porta nibh diam ut urna. Aenean convallis, lectus quis elementum gravida, eros dolor fermentum magna, vel pretium ante est a nisl. Pellentesque iaculis ante nec eros ornare, sit amet rhoncus odio tincidunt. Aliquam vitae maximus massa. </p>
+                            </div>
+                            <div class="category">
+                                <a href="" style="color:white">SERVICES <img src="img/icons/services_icon.png"></a>
+                            </div>
+                        </div>
+                        <div class="grid-item post" style="background:#7EA526">
+                            <div class="content">
+                                <img class="post-thumbnail" src="img/features/lynda.gif">
+                                <p class="h3 title">Lynda Subscription</p>
+                                <p class="description"><a href="http://www.google.com">Link: www.google.com</a>
+                                <br>Pellentesque bibendum vestibulum nisi, ut elementum erat hendrerit vulputate. Integer euismod sollicitudin lorem, vitae fringilla odio ultrices at. </p>
+                            </div>
+                            <div class="category">
+                                <a href="" style="color:white">TECH <img src="img/icons/tech_icons.png"></a>
+                            </div>
+                        </div>
+                        <div class="grid-item post" style="background:#EA8700">
+                            <div class="content">
+                                <p class="h3 title">What is Degree Work?</p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, tortor id sagittis rhoncus, augue turpis tempor ligula, sed efficitur augue est et tortor. </p>
+                            </div>
+                            <div class="category">
+                                <a href="" style="color:white">ACADEMICS <img src="img/icons/academics_icon.png"></a>
+                            </div>
+                        </div>
+                        <div class="grid-item post" style="background:#CB5242">
+                            <div class="content">
+                                <img class="post-thumbnail" src="img/features/wheaton.jpg">
+                                <p class="h3 title">Wheaton College Landscape</p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, tortor id sagittis rhoncus, augue turpis tempor ligula, sed efficitur augue est et tortor. Integer convallis, est vitae malesuada mattis, justo dui dignissim mi, sit amet porta nibh diam ut urna. Aenean convallis, lectus quis elementum gravida, eros dolor fermentum magna, </p>
+                            </div>
+                            <div class="category">
+                                <a href="" style="color:white">CLUBS <img src="img/icons/clubs_icons.png"></a>
+                            </div>
+                        </div>
+                        <div class="grid-item post" style="background:#4B9DB9">
+                            <div class="content">
+                                <img class="post-thumbnail" src="img/features/thunder.jpg">
+                                <p class="h3 title">Microsoft Subscription</p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, tortor id sagittis rhoncus, augue turpis tempor ligula, sed efficitur augue est et tortor. Integer convallis, est vitae malesuada mattis, justo dui dignissim mi, sit amet porta nibh diam ut urna. Aenean convallis, lectus quis elementum gravida, eros dolor fermentum magna, vel pretium ante est a nisl. Pellentesque iaculis ante nec eros ornare, sit amet rhoncus odio tincidunt. Aliquam vitae maximus massa. </p>
+                            </div>
+                            <div class="category">
+                                <a href="" style="color:white">SERVICES <img src="img/icons/services_icon.png"></a>
+                            </div>
+                        </div>
+                        <div class="grid-item post" style="background:#4B9DB9">
+                            <div class="content">
+                                <img class="post-thumbnail" src="img/features/tech.jpg">
+                                <p class="h3 title">Microsoft Subscription</p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, tortor met porta nibh diam ut urna. Aenean convallis, lectus quis elementum gravida, eros dolor fermentum magna, vel pretium ante est a nisl. Pellentesque iaculis ante nec eros ornare, sit amet rhoncus odio tincidunt. Aliquam vitae maximus massa. </p>
+                            </div>
+                            <div class="category">
+                                <a href="" style="color:white">SERVICES <img src="img/icons/services_icon.png"></a>
+                            </div>
+                        </div>
+                        <div class="grid-item post" style="background:#7EA526">
+                            <div class="content">
+                                <p class="h3 title">How to get Microsoft Subscription?</p>
+                                <p class="description"><a href="http://www.google.com">Link: www.google.com</a>
+                                <br>Pellentesque bibendum vestibulum nisi, ut elementum erat hendrerit vulputate. Integer euismod sollicitudin lorem, vitae fringilla odio ultrices at. </p>
+                            </div>
+                            <div class="category">
+                                <a href="" style="color:white">TECH <img src="img/icons/tech_icons.png"></a>
+                            </div>
+                        </div>
+                        <div class="grid-item post" style="background:#EA8700">
+                            <div class="content">
+                                <p class="h3 title">What is Degree Work?</p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, tortor id sagittis rhoncus, augue turpis tempor ligula, sed efficitur augue est et tortor. </p>
+                            </div>
+                            <div class="category">
+                                <a href="" style="color:white">ACADEMICS <img src="img/icons/academics_icon.png"></a>
+                            </div>
+                        </div>
+                        <div class="grid-item post" style="background:#CB5242">
+                            <div class="content">
+                                <p class="h3 title">Microsoft Subscription</p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, tortor id sagittis rhoncus, augue turpis tempor ligula, sed efficitur augue est et tortor. </p>
+                            </div>
+                            <div class="category">
+                                <a href="" style="color:white">CLUBS <img src="img/icons/clubs_icons.png"></a>
+                            </div>
+                        </div>
+                        <div class="grid-item post" style="background:#4B9DB9">
+                            <div class="content">
+                                <p class="h3 title">Microsoft Subscription</p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, tortor id sagittis rhoncus, augue turpis tempor ligula, sed efficitur augue est et tortor. Integer convallis, est vitae malesuada mattis, justo dui dignissim mi, sit amet porta nibh diam ut urna. Aenean convallis, lectus quis elementum gravida, eros dolor fermentum magna, vel pretium ante est a nisl. Pellentesque iaculis ante nec eros ornare, sit amet rhoncus odio tincidunt. Aliquam vitae maximus massa. </p>
+                            </div>
+                            <div class="category">
+                                <a href="" style="color:white">SERVICES <img src="img/icons/services_icon.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /#page-content-wrapper -->
+        </div>
+
+    <!-- Menu Toggle Script -->
+    <!--Post Modal View-->
+    <div class="modal fade" id="postModal" tabindex="-1" role="dialog" aria-labelledby="postModalTitle">
+        <button type="button" id="post-close" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="glyphicon glyphicon-remove"></span></button>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" id="postContent">
+               <div class="modal-header" id="postHeader">
+                <h4 class="modal-title post-title" id="postModalTitle">Microsoft Subscription</h4>
+              </div>
+              <div class="modal-body" id="postBody">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec mi vel metus finibus feugiat. Praesent dignissim odio sit amet pulvinar fermentum. Etiam convallis lectus sit amet posuere 
+                <br>rhoncus. Sed gravida nunc lectus, eget porttitor turpis efficitur id. Etiam scelerisque justo sit amet sem porttitor, id cursus odio finibus. Integer diam magna, malesuada ac interdum in, <br>ultrices non urna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                <br>
+                In felis diam, tincidunt eget tincidunt eu, iaculis ac quam. Phasellus pretium semper ante, ac volutpat nisi ultricies vitae. Phasellus a mattis leo, at consectetur felis. Praesent interdum nulla vitae mattis scelerisque. Sed faucibus eget <br> metus ullamcorper gravida. Vivamus porttitor sapien tellus, sit amet finibus massa imperdiet eget. Pellentesque consequat, est vitae vulputate posuere, nulla eros tempor metus, non interdum dui lacus suscipit risus. Integer et gravida diam.
+
+                Fusce scebr  <br> lerisque justo non massa lacinia, et pharetra sem laoreet. Donec commodo tortor at magna congue vestibulum. Ut faucibus lorem quis magna maximus auctor. Etiam consequat nisl nec dolor venenatis eleifend. Suspendisse dictum aliquet enim, facilisis commodo risus tincidunt vel. Aliquam orci lorem, dignissim a nulla condiment <br>um, malesuada pellentesque velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra sodales orci, in tempus ligula semper sed. Donec faci <br>lisis nisi vitae tempus aliquet. Aenean aliquet, tellus eu accumsan iaculis, mauris erat dictum est, sit amet dictum diam urna eget libero. Cras quis purus interdum, lobortis ex non, auctor purus. Donec pellentesque tincidunt mi, sed consequat leo egestas ut. Phasellus quis nibh id libero facilisis accumsan. Aenean condimentum mi ligula, pulvinar egestas mauris imperdiet ut. Aliquam convallis dolor eu risus tempor pulvinar. Etiam sed est convallis, pulvinar enim ut, ultrices sem.
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--Post Modal View Ends-->
+
+    <!--Search Modal View-->
+        <div id="search">
+            <div class="search-box">
+                <input type="search" value="" placeholder="Search for Keywords" />
+                <div class="search-autocompletes">
+                    <p><b>P</b>olitics</p>
+                    <p><b>P</b>olitics</p>
+                    <p><b>P</b>olitics</p>
+                </div>
+            </div>
+            
+            <div class="tip">
+                <p class="tip-content">Pro Tip: Add a filter to your search by selecting which category fits your inquiry</p>
+            </div>
+            <div class="search-icon">
+                <img src="img/icons/search_background.png">
+            </div>
+        </div>
+    <!--Search Modal View Ends-->
+
+
+	</body>
+</html>

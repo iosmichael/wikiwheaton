@@ -1,0 +1,32 @@
+#postModal{
+	background: rgba(255,255,255,0.85);
+	#post-close{
+		margin: 10px;
+		width: 40px;
+		right: 10px;
+		top: 10px;
+		position:fixed;
+	}
+	#postContent{
+		border-radius: 0.5em;
+		#postHeader{
+			border-top-left-radius: 0.5em;
+			border-top-right-radius: 0.5em;
+			background: #EA8700;
+		}
+		#postModalTitle{
+			font-size: 1.5em;
+			font-family: gotham-book;
+			color: white;
+		}
+		#postBody{
+			font-family: gotham-book;
+			font-size: 1.2em;
+			line-height: 1.6em;
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+	}
+}
+
+
